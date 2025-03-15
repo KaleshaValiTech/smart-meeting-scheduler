@@ -32,7 +32,6 @@ class MeetingScheduler:
     def view_meetings(self, user):
         return self.schedule.get(user, "No meetings scheduled")
 
-# Example Usage
 scheduler = MeetingScheduler()
 print(scheduler.book_meeting("Alice", "2025-03-18", 10, 11))
 print("Available slots:", scheduler.available_slots("Alice", "2025-03-18"))
