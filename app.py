@@ -1,5 +1,5 @@
 # Application
-from datetime import datetime, timedelta
+from datetime import datetime
 import calendar
 
 class MeetingScheduler:
